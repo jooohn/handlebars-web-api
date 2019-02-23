@@ -2,9 +2,18 @@
 
 Tiny web API to render handlebars template
 
-# Try immediately
+### Usage
+
+https://handlebars-web-api.herokuapp.com/ (POST only)
 
 ```
-$ curl -H 'Content-type:application/json' https://handlebars-web-api.herokuapp.com/ -d '{"template": "Hello, {{ name  }}!", "data": {"name": "World"}}'
+curl https://handlebars-web-api.herokuapp.com/ \
+  -H 'Content-type:application/json' \
+  -d '{"template": "Hello, {{ name }}!", "data": {"name": "World"}}'
+```
+
+##### Response
+
+```
 Hello, World!
 ```
