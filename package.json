@@ -1,0 +1,22 @@
+{
+  "name": "handlebars-web-api",
+  "version": "1.0.0",
+  "description": "Tiny web API to render handlebars template",
+  "main": "src/index.js",
+  "repository": "https://github.com/jooohn/handlebars-web-api",
+  "author": "jooohn <jooohn12341234@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "handlebars": "^4.1.0",
+    "pino": "^5.11.1",
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
